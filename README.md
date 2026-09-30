@@ -521,3 +521,23 @@ kafka-console-consumer.bat --topic testing-kafka1 --bootstrap-server localhost:9
 
 
 
+
+
+---
+
+## 🚀 Big Data Practice & Mastery Module
+
+This fork integrates comprehensive practice modules, datasets, and complete solutions based on hands-on Big Data lectures covering Spark RDDs, Spark SQL & DataFrames, and MongoDB / mongosh:
+
+### 📁 Structure & Packages:
+- **src/main/scala/org/hamedabdelhaq/spark/demos/practice/**:
+  - RddMasterPractice.scala: 48 comprehensive practice questions covering Spark RDD Transformations, Actions, Key-Value pairs, Lazy evaluation, and DAG execution.
+  - SparkSqlMasterPractice.scala: 50 comprehensive practice questions covering SparkSession, DataFrames, Spark SQL queries, custom UDFs, Window functions, Datasets, and Catalyst optimization.
+- **practice/**:
+  - mongodb_practice.md: 45 comprehensive NoSQL / mongosh questions covering database/collection administration, CRUD, , text indexes, and the complete Aggregation Pipeline (, , , , , ).
+  - mongodb_practice.js: Javascript version ready for interactive execution in mongosh.
+  - 
+dds.scala & spark_sql.scala: Standalone practice files formatted with question prompts, 4 blank lines for self-study, and complete idiomatic solutions.
+- **data/practice_dataset/**:
+  - sales_and_orders_1000.csv: 1,000 real-world transaction rows with 13 dense columns for all text, numerical, date, and array operations.
+  - orders.json: JSON document dataset formatted for MongoDB imports with nested customer sub-documents and tag arrays.
